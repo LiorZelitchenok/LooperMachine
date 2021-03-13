@@ -126,7 +126,7 @@ const Pads = () => {
   };
 
   const onPlay = () => {
-    runWhile(true, false);
+    setIsplay(true)
   };
 
   const onPause = () => {

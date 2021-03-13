@@ -1,0 +1,50 @@
+.wrapper {
+  width: 300px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-flow: column;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1f1b29;
+}
+
+.playButton{
+  background: none;
+    color: #068511;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.24sec;
+    margin-bottom: 2em ;
+}
+
+.pauseButton{
+  background: none;
+  color: #f32828;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: all 0.24sec;
+  margin-left: 0.7em;
+}
+
+.playButton:hover{
+  border-color: #04f524;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform:translateY(-0.24em);
+}
+
+.pauseButton:hover{
+  border-color: #ff5c5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform:translateY(-0.24em);
+}
